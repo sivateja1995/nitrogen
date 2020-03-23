@@ -1,0 +1,40 @@
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.hpcllogo{
+    position: absolute;
+    top: auto;
+    right: 1%;
+}
+
+.languageselection{
+    position: absolute;
+    top: 5%;
+    right: 4.75%;
+}
+
+.heading{
+    position: absolute;
+    top:1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+}
+
+.tinydatalogo{
+  position: absolute;
+  top: 2%;
+  left: 1%;
+}
+
+.userprofile{
+    position: absolute;
+    top:0.3%;
+    right:7%;
+}

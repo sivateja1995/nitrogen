@@ -13,20 +13,32 @@ export class SidebarComponent implements OnInit {
   items: NbMenuItem[] = [
     {
       title: 'Nitrogen Filling',
-      icon: 'person-outline',
+      icon: 'more-horizontal-outline',
       
       children:[
         {
-          title:'Dashboard'
+          title:'Create Bay Operator',
+          icon:'people-outline'
         },
         {
-          title:'Analytics'
+          title:'Reports',
+          icon:'file-outline'
+        },
+        {
+          title:'Admin Panel',
+          icon:'shield-outline'
         }
       ]
     },
-
-    
-  ];
+  {
+    title:'Lubes',
+    icon:'droplet-outline'
+  },
+  {
+    title:'Car Wash',
+    icon:'car-outline'
+  }
+];
 
   constructor() { }
 

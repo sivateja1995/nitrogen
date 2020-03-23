@@ -1,11 +1,11 @@
 <nb-layout>
-  <nb-layout-header><app-header></app-header></nb-layout-header>
-  <nb-sidebar><app-sidebar></app-sidebar></nb-sidebar>
+  <nb-layout-header fixed>
+    <button nbButton ghost status="danger" size="medium" (click)="toggle()"><nb-icon icon="menu-outline"></nb-icon></button>
+    <app-header></app-header>
+  </nb-layout-header>
+  <nb-sidebar state='compacted'><app-sidebar></app-sidebar></nb-sidebar>
   
-  <nb-layout-column style="background: rgb(136, 176, 223);">
+  <nb-layout-column style="background: rgb(128, 146, 167);">
     <app-mainpage></app-mainpage>
   </nb-layout-column>
- 
-   
- 
 </nb-layout>

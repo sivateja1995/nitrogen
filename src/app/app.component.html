@@ -2,6 +2,14 @@
   <nb-layout-header fixed>
     <button nbButton ghost status="danger" size="medium" (click)="toggle()"><nb-icon icon="menu-outline"></nb-icon></button>
     <app-header></app-header>
+    <div class="nb-user">
+    <nb-user name="siva teja"
+             title="bay Operator"
+             [nbContextMenu]="items"
+             nbContextMenuTag="my-context-menu"
+             size="giant">
+    </nb-user>
+    </div>
   </nb-layout-header>
   <nb-sidebar state='compacted'><app-sidebar></app-sidebar></nb-sidebar>
   

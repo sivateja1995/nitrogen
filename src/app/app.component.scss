@@ -1,3 +1,14 @@
-:host nb-layout-header button:last-child{
+.button{
+    display: flex;
+    position:absolutle;
+    top: 5%;
+    left:5%;
     margin-left: auto;
 }
+
+.nb-user {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
